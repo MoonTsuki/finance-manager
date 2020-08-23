@@ -1,0 +1,22 @@
+Colors to use
+
+--- Natural
+#8D8DB9
+#F9F8FF
+#E6F4F1
+
+
+
+--- Spot
+#0066FF
+#A1A1D7
+#EFEDFF
+#BFA975
+
+
+--- Classy
+#0066FF
+#464555
+#AAA9BC
+#EC003C
+#FF4D6B
