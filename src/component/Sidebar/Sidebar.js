@@ -7,20 +7,17 @@ const Sidebar = () => {
   return (
     <div className={css.root}>
       <Nav defaultActiveKey="/home" className="flex-column">
-        <Nav.Link href="/home" style={{ color: "#007bff" }}>
-          Active
+        <Nav.Link href="/home" style={{ color: "white" }}>
+          Home
         </Nav.Link>
         <Nav.Link
           eventKey="link-1"
           href="/portfolio"
-          style={{ color: "#bfa975", backgroundColor: "white" }}
+          style={{ color: "#bfa975", backgroundColor: "#f0f6f7ff" }}
         >
           Link
         </Nav.Link>
-        <Nav.Link style={{ color: "#bfa975" }} eventKey="link-2">
-          Link
-        </Nav.Link>
-        <Nav.Link style={{ color: "#bfa975" }} eventKey="disabled" disabled>
+        <Nav.Link style={{ color: "white" }} eventKey="disabled" disabled>
           Disabled
         </Nav.Link>
       </Nav>
