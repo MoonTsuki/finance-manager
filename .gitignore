@@ -21,5 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 
 secret
+=======
+>>>>>>> parent of 384c110... feat: add react-router into package
