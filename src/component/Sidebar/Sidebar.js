@@ -6,21 +6,20 @@ const Sidebar = () => {
   // maybe keep for routing?
   return (
     <div className={css.root}>
-      <Nav defaultActiveKey="/home" className="flex-column">
-        <Nav.Link href="/home" style={{ color: "#007bff" }}>
-          Active
+      <Nav
+        defaultActiveKey="/home"
+        className="flex-column"
+        onSelect={(selected) => {
+          console.log(selected);
+        }}
+      >
+        <Nav.Link href="/home" className={css.navLink}>
+          Home
         </Nav.Link>
-        <Nav.Link
-          eventKey="link-1"
-          href="/portfolio"
-          style={{ color: "#bfa975", backgroundColor: "white" }}
-        >
+        <Nav.Link eventKey="link-1" href="/portfolio" className={css.navLink}>
           Link
         </Nav.Link>
-        <Nav.Link style={{ color: "#bfa975" }} eventKey="link-2">
-          Link
-        </Nav.Link>
-        <Nav.Link style={{ color: "#bfa975" }} eventKey="disabled" disabled>
+        <Nav.Link eventKey="disabled" className={css.navLink} disabled>
           Disabled
         </Nav.Link>
       </Nav>

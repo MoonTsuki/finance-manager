@@ -17,3 +17,8 @@
   justify-content: center;
   margin: auto;
 }
+
+.chart {
+  height: 50vh;
+  width: 80vw;
+}
